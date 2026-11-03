@@ -14,7 +14,7 @@ from pymoo.operators.mutation.pm import PM
 from pymoo.operators.sampling.rnd import FloatRandomSampling
 from pymoo.indicators.hv import HV
 
-from help import eval_fun, get_media_dp
+from aux_fun import eval_fun, get_media_dp
 
 
 def select_hp_grid(fun, lb, ub, output_file, size_pops_hps=[50, 100, 200], pcs_hps=[0.7, 0.85, 0.95], pms_hps=[0.01, 0.05, 0.1, 0.2], execs=10, max_aval=100000, th=1e-4, seed_base=1000):
